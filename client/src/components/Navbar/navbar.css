@@ -1,0 +1,49 @@
+.navbar-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: relative;
+    bottom:10px;
+    background-color: aqua;
+    height: 40px;
+    padding: 30px 0px;
+   
+}
+.icons{
+    display: flex;
+   
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(184, 136, 228);
+}
+.icon{
+    position: relative;
+    margin-right: 20px;
+}
+.react-icon{
+ font-size: 32px;
+ margin-right: 12px;
+ cursor: pointer;
+}
+.notification-count{
+    position: absolute;
+    top:-4px;
+    left:18px ;
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+    width: 18px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+}
+.notification{
+    background-color: white;
+    position: absolute;
+    right: 220px;
+    top:50px;
+    min-height:10px;
+    width:235px
+}
